@@ -1,0 +1,61 @@
+B11: cập nhật các thay đổi từ server: git pull
+
+Git status
+Git add .
+Git commit –m “message”
+Git push origin main
+B12. Thay doi noij dung file roi push len server
+
+B13: Xoa mot file nao do 
+Rồi git status
+Git add .
+Git commit
+git push
+
+B13. Tiến hành tạo folder MayKhac checkout/clone source git trên về.
+
+
+BB14 Tiến hành thay đổi nội dung ở 2 máy khác nhau trên cùng 1 file.
+
+B15: lấy 1 máy commit và push lên server.
+
+B16: lấy máy còn lại commit và push lên server  báo lỗi conflict.
+
+B17: Tiến hành pull source từ server về.
+
+B18: Tiến hành chỉnh file conflict
+B19: Tiến hành đưa file đã giải quyết conflict lên đầu server.
+
+
+B20: Tạo nhánh: git branch tennhanh
+
+B21: Tạo file mới cho nhánh đó.
+
+B20: Tạo nhánh: git branch tennhanh
+
+B21: switch qua nhanh trên: git checkout tennhanh
+
+B22: Tạo file mới cho nhánh đó.
+
+B22: push nhanh đó lên server
+19HTHA1 Công cụ và môi trường phát triển phần mềm10:11
+B22: push nhanh đó lên server: git push origin tennhanh
+19HTHA1 Công cụ và môi trường phát triển phần mềm10:19
+B23: Vừa tạo nhánh và switch qua nhánh đó luôn: git checkout –b tennhanh 
+> git branch tennhanh + git checkout tennhanh
+
+B24: so sánh sự khác nhau giữa các nhánh: git diff nhanh1 nhanh2
+
+19HTHA1 Công cụ và môi trường phát triển phần mềm10:34
+B24: so sánh sự khác nhau giữa các nhánh: git diff nhanh1 nhanh2
+
+B25: merge các nhánh khác vào nhánh hiện tại thì dung git merge tennhanh
+:qa bấm enter
+B26: push thông tin lên server
+
+B27: muốn reset lại toàn bộ dữ liệu của mình với đầu server  git reset --hard origin
+
+B28: xem log: git log
+
+B29: xem sự khác nhau giữa các phiên bản
+	git diff tenphienban-1 tenphienban-2
